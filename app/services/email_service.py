@@ -13,7 +13,7 @@ def send_email(to: str, subject: str, body: str):
     smtp_password = settings.smtp_password
 
     msg = MIMEMultipart()
-    msg["From"] = "dnk-studio.noreply@gmail.com"
+    msg["From"] = ...
     msg["To"] = to
     msg["Subject"] = subject
 
