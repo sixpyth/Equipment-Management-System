@@ -14,7 +14,6 @@ class User(BaseModel):
     )
 
     
-
     email: Mapped[str] = mapped_column(String, nullable=False, index=True)
 
     name: Mapped[str] = mapped_column(String, nullable=False)
